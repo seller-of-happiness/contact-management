@@ -7,38 +7,22 @@
 1. Клонируйте репозиторий:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+git clone https://github.com/seller-of-happiness/contact-management.git
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
+2. Устанавливаете зависимости
+```bash
+cd contact-management
+npm install
+```
+3. Запускаем Dev
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
+4. Запускаем Prod
 ```bash
 npm run build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
 
 ## Технологии
 - **Vue 3**: Фреймворк для создания пользовательских интерфейсов.
