@@ -2,19 +2,43 @@
 
 Приложение для управления контактами, созданное с использованием Vue 3, Composition API, TypeScript, Tailwind CSS и Pug.
 
-## Установка
+## Setup
 
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/<your-username>/contact-management.git
-cd contact-management
-2. Установите зависимости:
-```bash
+# yarn
+yarn install
+
+# npm
 npm install
-3. Запустите сервер разработки:
+
+# pnpm
+pnpm install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`
+
 ```bash
 npm run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
+```
+
+Locally preview production build:
+
+```bash
+npm run preview
+```
+
 
 ## Технологии
 - **Vue 3**: Фреймворк для создания пользовательских интерфейсов.
